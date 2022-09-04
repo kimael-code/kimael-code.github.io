@@ -18,9 +18,9 @@ const isDropdownOpen = ref(false)
         @click="isBurgerOpen = !isBurgerOpen"
         :class="{ 'is-active': isBurgerOpen }"
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </div>
     </div>
 
