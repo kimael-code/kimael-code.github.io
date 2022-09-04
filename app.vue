@@ -1,9 +1,6 @@
 <script setup>
 useHead({
-  titleTemplate: (title) =>
-    title ? `Maikel Carballo - ${title}` : 'Maikel Carballo',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  charset: 'utf-8',
+  titleTemplate: (title) => title ? `Maikel Carballo - ${title}` : 'Maikel Carballo',
   link: [
     {
       rel: 'icon',
@@ -16,6 +13,7 @@ useHead({
 
 <template>
   <div>
+    <Html :lang="$i18n.locale"></Html>
     <Head>
       <Meta name="description" content="Sitio Web Personal de Maikel Carballo" />
       <Meta name="author" content="Maikel Carballo" />
