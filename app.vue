@@ -1,11 +1,73 @@
 <script setup>
 useHead({
-  titleTemplate: (title) => title ? `Maikel Carballo - ${title}` : 'Maikel Carballo',
+  titleTemplate: (title) =>
+    title ? `Maikel Carballo - ${title}` : 'Maikel Carballo',
   link: [
     {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico',
+    },
+  ],
+  meta: [
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+    {
+      property: 'og:title',
+      content: 'Maikel Carballo',
+    },
+    {
+      property: 'og:url',
+      content: 'https://kimael-code.github.io/',
+    },
+    {
+      property: 'og:image',
+      content:
+        'https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg',
+    },
+    {
+      property: 'og:description',
+      content: 'Desarrollador Web Full Stack',
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      name: 'twitter:title',
+      content: 'Maikel Carballo',
+    },
+    {
+      name: 'twitter:site',
+      content: 'https://kimael-code.github.io/',
+    },
+    {
+      name: 'twitter:creator',
+      content: '@_kimael_',
+    },
+    {
+      name: 'twitter:image',
+      content:
+        'https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg',
+    },
+    {
+      name: 'twitter:description',
+      content: 'Desarrollador Web Full Stack',
+    },
+    {
+      name: 'description',
+      content: 'Sitio Web Personal de Maikel Carballo',
+    },
+    {
+      name: 'author',
+      content: 'Maikel Carballo',
+    },
+    {
+      name: 'keywords',
+      content:
+        'programador web, desarrollador web, full stack, portafolio, portfolio',
     },
   ],
 })
@@ -14,25 +76,6 @@ useHead({
 <template>
   <div>
     <Html :lang="$i18n.locale"></Html>
-    <Head>
-      <Meta name="description" content="Sitio Web Personal de Maikel Carballo" />
-      <Meta name="author" content="Maikel Carballo" />
-      <Meta
-        name="keywords"
-        content="programador web, desarrollador web, full stack, portafolio, portfolio"
-      />
-      <Meta property="og:type" content="website" />
-      <Meta property="og:title" content="Maikel Carballo" />
-      <Meta property="og:url" content="https://kimael-code.github.io/" />
-      <Meta property="og:image" content="https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg" />
-      <Meta property="og:description" content="Desarrollador Web Full Stack" />
-      <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Maikel Carballo" />
-      <Meta name="twitter:site" content="https://kimael-code.github.io/" />
-      <Meta name="twitter:creator" content="@_kimael_" />
-      <Meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg" />
-      <Meta name="twitter:description" content="Desarrollador Web Full Stack" />
-    </Head>
     <NuxtLayout>
       <NuxtLoadingIndicator />
       <NuxtPage />
