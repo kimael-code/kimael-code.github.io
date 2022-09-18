@@ -22,14 +22,13 @@ useHead({
         content="programador web, desarrollador web, full stack, portafolio, portfolio"
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:title" content="Sitio Web Personal de Maikel Carballo" />
-      <Meta property="og:url" content="https://kimael-code.github.io" />
-      <Meta property="og:site_name" content="Maikel Carballo" />
-      <Meta property="og:description" content="Sitio Web Personal de Maikel Carballo" />
+      <Meta property="og:title" content="Maikel Carballo" />
+      <Meta property="og:url" content="https://kimael-code.github.io/" />
       <Meta property="og:image" content="https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg" />
+      <Meta property="og:description" content="Desarrollador Web Full Stack" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Maikel Carballo" />
-      <Meta name="twitter:site" content="https://kimael-code.github.io" />
+      <Meta name="twitter:site" content="https://kimael-code.github.io/" />
       <Meta name="twitter:creator" content="@_kimael_" />
       <Meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1361041473366601728/mYIfVGNd_400x400.jpg" />
       <Meta name="twitter:description" content="Desarrollador Web Full Stack" />
