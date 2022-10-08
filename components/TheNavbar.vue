@@ -5,7 +5,7 @@ const isDropdownOpen = ref(false)
 
 <template>
   <nav
-    class="navbar is-primary is-fixed-top is-spaced"
+    class="navbar is-light is-fixed-top is-spaced"
     role="navigation"
     aria-label="main navigation"
   >
