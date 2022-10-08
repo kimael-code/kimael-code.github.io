@@ -71,7 +71,10 @@ const isDropdownOpen = ref(false)
           </a>
           <div
             class="navbar-dropdown"
-            @click="(isDropdownOpen = !isDropdownOpen), (isBurgerOpen = !isBurgerOpen)"
+            @click="
+              ;(isDropdownOpen = !isDropdownOpen),
+                (isBurgerOpen = !isBurgerOpen)
+            "
           >
             <a href="#" class="navbar-item" @click="$i18n.locale = 'en'"
               >English</a
@@ -85,3 +88,19 @@ const isDropdownOpen = ref(false)
     </div>
   </nav>
 </template>
+
+<style scoped>
+.navbar {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00c9ff,
+    #92fe9d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00c9ff,
+    #92fe9d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+</style>

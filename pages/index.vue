@@ -24,4 +24,18 @@
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.hero {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00c9ff,
+    #92fe9d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00c9ff,
+    #92fe9d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+</style>
