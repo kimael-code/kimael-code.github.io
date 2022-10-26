@@ -18,8 +18,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.hero,
-.section {
+html, body, .hero {
   background: #00c9ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -45,7 +44,7 @@ html {
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.125s ease;
+  transition: opacity .3s;
 }
 
 .page-enter-from,
