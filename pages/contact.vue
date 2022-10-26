@@ -8,8 +8,8 @@ useHead({
   <section class="section is-medium" id="contact">
     <div class="container">
       <div class="section-heading">
-        <h3 class="title is-2">{{ $t('index.contact.title') }}</h3>
-        <h4 class="subtitle is-5">{{ $t('index.contact.subtitle') }}</h4>
+        <h3 class="title is-2">{{ $t('contact.title') }}</h3>
+        <h4 class="subtitle is-5">{{ $t('contact.subtitle') }}</h4>
       </div>
       <br />
 

@@ -1,149 +1,229 @@
 <script setup>
-  useHead({
-    title: 'Portafolio'
-  })
+useHead({
+  title: 'Portafolio',
+})
+
+const show = ref(false)
 </script>
 
 <template>
   <section class="section is-medium" id="portfolio">
     <div class="container">
       <div class="section-heading">
-        <h3 class="title is-2">{{ $t('index.portfolio.title') }}</h3>
+        <h3 class="title is-2">{{ $t('portfolio.title') }}</h3>
         <h4 class="subtitle is-5">
-          {{ $t('index.portfolio.subtitle') }}
+          {{ $t('portfolio.subtitle') }}
         </h4>
       </div>
       <br />
 
       <div class="container portfolio-container">
         <div class="columns">
+          <!-- COLUMNA IZQUIERDA -->
           <div class="column">
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>SCBmk Admin</span>
-                  <div class="is-flex is-align-items-center pr-4">
-                    <div class="tags">
-                      <span class="tag is-danger">wip</span>
-                      <span class="tag is-primary">codeigniter</span>
-                    </div>
-                  </div>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img
-                    src="~/assets/images/scbmk-screenshot_users.jpg"
-                    alt="Captura de pantalla SCBmk - Plantilla Admin"
-                  />
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a
-                  class="card-footer-item"
-                  href="https://gitlab.com/profemaik/php-codeigniter-scbmk"
-                  target="blank"
-                  rel="noreferrer noopener"
-                  >{{ $t('index.portfolio.source') }}</a
-                >
-              </footer>
-            </div>
+            <AppCard>
+              <template #image>
+                <img
+                  src="~/assets/images/status-contable.webp"
+                  alt="Captura de pantalla Estatus Contable"
+                />
+              </template>
 
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Estatus Contable</span>
-                  <div class="is-flex is-align-items-center pr-4">
-                    <div class="tags">
-                      <span class="tag is-danger">wip</span>
-                      <span class="tag is-primary">laravel</span>
-                    </div>
+              <template #title>
+                <p class="card-header-title">Estatus Contable</p>
+              </template>
+
+              <template #content>
+                <div class="content">
+                  <div class="tags">
+                    <span class="tag is-rounded is-danger">wip</span>
+                    <span class="tag is-rounded is-primary">laravel</span>
                   </div>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img
-                    src="~/assets/images/status-contable-screenshot.webp"
-                    alt="Captura de pantalla Estatus Contable"
-                  />
-                </figure>
-              </div>
-              <footer class="card-footer">
+                  <p>Seguimiento de los ingresos y egresos de dinero.</p>
+                </div>
+              </template>
+
+              <template #footer>
                 <a
                   class="card-footer-item"
                   href="https://gitlab.com/profemaik/status-contable"
                   target="blank"
                   rel="noreferrer noopener"
-                  >{{ $t('index.portfolio.source') }}</a
                 >
-              </footer>
-            </div>
+                  <span class="icon-text">
+                    <span class="icon">
+                      <FontAwesomeIcon icon="fa-code" size="sm" />
+                    </span>
+                    <span>{{ $t('portfolio.source') }}</span
+                    >&nbsp;
+                    <span class="icon">
+                      <FontAwesomeIcon
+                        icon="fa-arrow-up-right-from-square"
+                        size="2xs"
+                      />
+                    </span>
+                  </span>
+                </a>
+              </template>
+            </AppCard>
+
+            <AppCard>
+              <template #image>
+                <img
+                  src="~/assets/images/scbmk.jpg"
+                  alt="Captura de pantalla SCBmk Admin"
+                />
+              </template>
+
+              <template #title>
+                <p class="card-header-title">SCBmk Admin</p>
+              </template>
+
+              <template #content>
+                <div class="content">
+                  <div class="tags">
+                    <span class="tag is-rounded is-danger">wip</span>
+                    <span class="tag is-rounded is-primary">codeigniter</span>
+                  </div>
+                  <p>
+                    Plantilla para aplicaciones tipo dashboard. Construida con
+                    CodeIgniter y la plantilla Bootstrap SB Admin 2.
+                  </p>
+                </div>
+              </template>
+
+              <template #footer>
+                <a
+                  class="card-footer-item"
+                  href="https://gitlab.com/profemaik/status-contable"
+                  target="blank"
+                  rel="noreferrer noopener"
+                >
+                  <span class="icon-text">
+                    <span class="icon">
+                      <FontAwesomeIcon icon="fa-code" size="sm" />
+                    </span>
+                    <span>{{ $t('portfolio.source') }}</span
+                    >&nbsp;
+                    <span class="icon">
+                      <FontAwesomeIcon
+                        icon="fa-arrow-up-right-from-square"
+                        size="2xs"
+                      />
+                    </span>
+                  </span>
+                </a>
+              </template>
+            </AppCard>
           </div>
 
+          <!-- COLUMNA CENTRAL -->
           <div class="column">
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Mi Admin Usuarios</span>
-                  <div class="is-flex is-align-items-center pr-4">
-                    <div class="tags">
-                      <span class="tag is-danger">wip</span>
-                      <span class="tag is-primary">laravel</span>
-                    </div>
+            <AppCard>
+              <template #image>
+                <img
+                  src="~/assets/images/mi-admin-usuarios.jpg"
+                  alt="Captura de Pantalla Mi Admin Usuarios"
+                />
+              </template>
+
+              <template #title>
+                <p class="card-header-title">Mi Admin Usuarios</p>
+              </template>
+
+              <template #content>
+                <div class="content">
+                  <div class="tags">
+                    <span class="tag is-rounded is-danger">wip</span>
+                    <span class="tag is-rounded is-primary">laravel</span>
                   </div>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img
-                    src="~/assets/images/mi-admin-usuarios_screenshot_activities.jpg"
-                    alt="Captura de Pantalla Mi Admin Usuarios"
-                  />
-                </figure>
-              </div>
-              <footer class="card-footer">
+                  <p>
+                    Aplicación web para sistemas tipo dashboard. Construida con
+                    Laravel 9 y basada en la plantilla HTML Bulma Admin
+                    Dashboard Template.
+                  </p>
+                </div>
+              </template>
+
+              <template #footer>
                 <a
                   class="card-footer-item"
                   href="https://gitlab.com/profemaik/mi-admin-usuarios"
                   target="blank"
                   rel="noreferrer noopener"
-                  >{{ $t('index.portfolio.source') }}</a
                 >
-              </footer>
-            </div>
+                  <span class="icon-text">
+                    <span class="icon">
+                      <FontAwesomeIcon icon="fa-code" size="sm" />
+                    </span>
+                    <span>{{ $t('portfolio.source') }}</span
+                    >&nbsp;
+                    <span class="icon">
+                      <FontAwesomeIcon
+                        icon="fa-arrow-up-right-from-square"
+                        size="2xs"
+                      />
+                    </span>
+                  </span>
+                </a>
+              </template>
+            </AppCard>
+          </div>
 
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Gedezmp</span>
-                  <div class="is-flex is-align-items-center pr-4">
-                    <div class="tags">
-                      <span class="tag is-success">v0.2.1</span>
-                      <span class="tag is-primary">react</span>
-                      <span class="tag is-primary">pwa</span>
-                    </div>
+          <!-- COLUMNA DERECHA -->
+          <div class="column">
+            <AppCard>
+              <template #image>
+                <img
+                  src="~/assets/images/gedezmp.jpg"
+                  alt="Captura de pantalla Gedezmp"
+                />
+              </template>
+
+              <template #title>
+                <p class="card-header-title">Gedezmp</p>
+              </template>
+
+              <template #content>
+                <div class="content">
+                  <div class="tags">
+                    <span class="tag is-rounded is-success">v0.2.1</span>
+                    <span class="tag is-rounded is-primary">react</span>
+                    <span class="tag is-rounded is-primary">pwa</span>
                   </div>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img
-                    src="~/assets/images/gedezmp_screenshot.jpg"
-                    alt="Captura de pantalla Gedezmp"
-                  />
-                </figure>
-              </div>
-              <footer class="card-footer">
+                  <p>
+                    Aplicación web que permite crear un archivo con extensión
+                    <code>.zmp</code> a partir de un archivo <code>.csv</code>.
+                    El archivo <code>.zmp</code> resultante puede ser usado para
+                    ejecutar operaciones por lotes, vía terminal, en servidores
+                    de correo Zimbra.
+                  </p>
+                </div>
+              </template>
+
+              <template #footer>
                 <a
                   class="card-footer-item"
                   href="https://github.com/kimael-code/gedezmp-bulma"
                   target="blank"
                   rel="noreferrer noopener"
-                  >{{ $t('index.portfolio.source') }}</a
                 >
-              </footer>
-            </div>
+                  <span class="icon-text">
+                    <span class="icon">
+                      <FontAwesomeIcon icon="fa-code" size="sm" />
+                    </span>
+                    <span>{{ $t('portfolio.source') }}</span
+                    >&nbsp;
+                    <span class="icon">
+                      <FontAwesomeIcon
+                        icon="fa-arrow-up-right-from-square"
+                        size="2xs"
+                      />
+                    </span>
+                  </span>
+                </a>
+              </template>
+            </AppCard>
           </div>
         </div>
       </div>

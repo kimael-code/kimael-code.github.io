@@ -1,49 +1,9 @@
 {
-  "navbar": {
-    "home": "Home",
-    "portfolio": "Portfolio",
-    "contact": "Contact",
-    "about": "About Me"
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch"
   },
-  "index": {
-    "header": {
-      "pretitle": "Nice to greet you, I'm",
-      "title": "Maikel Carballo",
-      "subtitle": "Full Stack Web Developer"
-    },
-    "whoami": {
-      "title": "About Me",
-      "subtitle": "Maikel Carballo",
-      "about": "Self-taught professional graduated from the Instituto Pedagógico de Caracas of the Universidad Pedagógica Experimental Libertador (UPEL-IPC, Venezuela) as a Computer Science Professor. I practiced the teaching career about 4 years, later I dedicated myself entirely to programming and web development. I currently work as Systems Analyst and Full Stack Web Developer at FOGADE.",
-      "cardProfile": {
-        "title": "Profile",
-        "profileName": "Degree:",
-        "profileValue": "Computing Professor",
-        "jobName": "Current Job:",
-        "jobValue": "Systems Analyst",
-        "interestsName": "Interested in:",
-        "interestsValue": "VueJS, ReactJS, PWA, SPA, Full Stack Develop"
-      },
-      "cardSkills": {
-        "title": "Skills",
-        "js": "JavaScript",
-        "vue": "Vue.js",
-        "html": "HTML5/CSS3",
-        "sql": "SQL Databases",
-        "docker": "Docker",
-        "php": "PHP"
-      }
-    },
-    "portfolio": {
-      "title": "Portfolio",
-      "subtitle": "Personal projects, jobs and collaborations",
-      "source": "Source Code"
-    },
-    "contact": {
-      "title": "Contact",
-      "subtitle": "Get in touch"
-    }
-  },
+
   "footer": {
     "app": {
       "name": "Mi Portafolio",
@@ -51,7 +11,49 @@
       "licensed": "The source code is licensed"
     }
   },
+
+  "index": {
+    "header": {
+      "pretitle": "Nice to greet you, I'm",
+      "title": "Maikel Carballo",
+      "subtitle": "Full Stack Web Developer"
+    }
+  },
+
+  "navbar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "about": "About Me"
+  },
+
   "portfolio": {
-    "title": "Under construction"
+    "title": "Portfolio",
+    "subtitle": "Personal projects, jobs and collaborations",
+    "source": "Source Code"
+  },
+
+  "whoami": {
+    "title": "About Me",
+    "subtitle": "Maikel Carballo",
+    "about": "Self-taught professional graduated from the Instituto Pedagógico de Caracas of the Universidad Pedagógica Experimental Libertador (UPEL-IPC, Venezuela) as a Computer Science Professor. I practiced the teaching career about 4 years, later I dedicated myself entirely to programming and web development. I currently work as Systems Analyst and Full Stack Web Developer at FOGADE.",
+    "cardProfile": {
+      "title": "Profile",
+      "profileName": "Degree:",
+      "profileValue": "Computing Professor",
+      "jobName": "Current Job:",
+      "jobValue": "Systems Analyst",
+      "interestsName": "Interested in:",
+      "interestsValue": "VueJS, ReactJS, PWA, SPA, Full Stack Develop"
+    },
+    "cardSkills": {
+      "title": "Skills",
+      "js": "JavaScript",
+      "vue": "Vue.js",
+      "html": "HTML5/CSS3",
+      "sql": "SQL Databases",
+      "docker": "Docker",
+      "php": "PHP"
+    }
   }
 }

@@ -7,10 +7,10 @@ useHead({
 <template>
   <section class="section is-medium" id="about">
     <div class="section-heading">
-      <h3 class="title is-2">{{ $t('index.whoami.title') }}</h3>
-      <h4 class="subtitle is-5">{{ $t('index.whoami.subtitle') }}</h4>
+      <h3 class="title is-2">{{ $t('whoami.title') }}</h3>
+      <h4 class="subtitle is-5">{{ $t('whoami.subtitle') }}</h4>
       <div class="container">
-        <p>{{ $t('index.whoami.about') }}</p>
+        <p>{{ $t('whoami.about') }}</p>
       </div>
     </div>
 
@@ -19,22 +19,22 @@ useHead({
         <div class="card">
           <div class="card-content">
             <h3 class="title is-4">
-              {{ $t('index.whoami.cardProfile.title') }}
+              {{ $t('whoami.cardProfile.title') }}
             </h3>
 
             <div class="content">
               <table class="table-profile">
                 <tr>
-                  <td>{{ $t('index.whoami.cardProfile.profileName') }}</td>
-                  <td>{{ $t('index.whoami.cardProfile.profileValue') }}</td>
+                  <td>{{ $t('whoami.cardProfile.profileName') }}</td>
+                  <td>{{ $t('whoami.cardProfile.profileValue') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ $t('index.whoami.cardProfile.jobName') }}</td>
-                  <td>{{ $t('index.whoami.cardProfile.jobValue') }}</td>
+                  <td>{{ $t('whoami.cardProfile.jobName') }}</td>
+                  <td>{{ $t('whoami.cardProfile.jobValue') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ $t('index.whoami.cardProfile.interestsName') }}</td>
-                  <td>{{ $t('index.whoami.cardProfile.interestsValue') }}</td>
+                  <td>{{ $t('whoami.cardProfile.interestsName') }}</td>
+                  <td>{{ $t('whoami.cardProfile.interestsValue') }}</td>
                 </tr>
               </table>
             </div>
@@ -92,14 +92,14 @@ useHead({
         <div class="card">
           <div class="card-content skills-content">
             <h3 class="title is-4">
-              {{ $t('index.whoami.cardSkills.title') }}
+              {{ $t('whoami.cardSkills.title') }}
             </h3>
             <div class="content">
               <article class="media">
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>{{ $t('index.whoami.cardSkills.js') }}</strong>
+                      <strong>{{ $t('whoami.cardSkills.js') }}</strong>
                       <br />
                       <progress
                         class="progress is-primary"
@@ -115,7 +115,7 @@ useHead({
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>{{ $t('index.whoami.cardSkills.vue') }}</strong>
+                      <strong>{{ $t('whoami.cardSkills.vue') }}</strong>
                       <br />
                       <progress
                         class="progress is-primary"
@@ -131,7 +131,7 @@ useHead({
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>{{ $t('index.whoami.cardSkills.html') }}</strong>
+                      <strong>{{ $t('whoami.cardSkills.html') }}</strong>
                       <br />
                       <progress
                         class="progress is-primary"
@@ -147,7 +147,7 @@ useHead({
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>{{ $t('index.whoami.cardSkills.sql') }}</strong>
+                      <strong>{{ $t('whoami.cardSkills.sql') }}</strong>
                       <br />
                       <progress
                         class="progress is-primary"
@@ -164,7 +164,7 @@ useHead({
                   <div class="content">
                     <p>
                       <strong>{{
-                        $t('index.whoami.cardSkills.docker')
+                        $t('whoami.cardSkills.docker')
                       }}</strong>
                       <br />
                       <progress
@@ -181,7 +181,7 @@ useHead({
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>{{ $t('index.whoami.cardSkills.php') }}</strong>
+                      <strong>{{ $t('whoami.cardSkills.php') }}</strong>
                       <br />
                       <progress
                         class="progress is-primary"
