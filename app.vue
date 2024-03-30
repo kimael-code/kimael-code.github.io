@@ -9,7 +9,7 @@ useHead({
     },
   ],
 })
-useSeoMeta({
+useServerSeoMeta({
   name: 'Mi Portafolio',
   description: 'Este es mi portafolio web.',
   content: 'Portafolio Web de Maikel Carballo.',
