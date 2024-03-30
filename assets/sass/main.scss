@@ -1,35 +1,12 @@
-@charset 'utf-8';
+@use 'bulma/sass' with (
+  $family-monospace: 'Share Tech Mono',
+);
 
 // Google Fonts
-// @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Share+Tech+Mono&display=swap');
-
-// Update Bulma's global variables
-// $family-sans-serif: 'Be Vietnam Pro', BlinkMacSystemFont, -apple-system,
-//   'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-//   'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-
-$family-monospace: 'Share Tech Mono', monospace;
-
-// Bulma
-@import '../../node_modules/bulma/bulma.sass';
 
 html {
   scroll-behavior: smooth;
-}
-
-html, body, .hero {
-  background: #00c9ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #00c9ff,
-    #92fe9d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #00c9ff,
-    #92fe9d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .is-handwritten {

@@ -13,38 +13,22 @@ useHead({
       </div>
       <br />
 
-      <div class="columns">
-        <div class="column is-6 is-offset-3">
-          <div class="box">
-            <div class="buttons has-addons is-centered">
-              <a
-                class="button is-primary is-large has-text-dark"
-                href="https://twitter.com/_kimael_"
-                target="blank"
-                rel="noreferrer noopener"
-              >
-                <span class="icon">
-                  <FontAwesomeIcon icon="fa-brands fa-twitter" />
-                </span>
-                <span>Twitter</span>
-              </a>
-            </div>
-          </div>
-          <div class="box">
-            <div class="buttons has-addons is-centered">
-              <a
-                class="button is-primary is-large has-text-dark"
-                href="https://www.linkedin.com/in/maikel-c-2314311a1/"
-                target="blank"
-                rel="noreferrer noopener"
-              >
-                <span class="icon">
-                  <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-                </span>
-                <span>LinkedIn</span>
-              </a>
-            </div>
-          </div>
+      <div class="fixed-grid">
+        <div class="grid">
+          <a class="cell has-text-centered" href="https://twitter.com/_kimael_" target="blank" rel="noreferrer noopener">
+            <span class="icon is-large has-text-info">
+              <FontAwesomeIcon :icon="['fab', 'x-twitter']" size="7x" />
+            </span>
+            <p class="heading">{{ $t('contact.xAbout') }}</p>
+          </a>
+          <a class="cell has-text-centered" href="https://www.linkedin.com/in/maikel-c-2314311a1/" target="blank" rel="noreferrer noopener">
+            <span class="icon is-large has-text-info">
+              <FontAwesomeIcon :icon="['fab', 'linkedin']" size="7x" />
+            </span>
+            <p class="heading">{{ $t('contact.linkedinAbout') }}</p>
+          </a>
+          <div class="cell"></div>
+          <div class="cell"></div>
         </div>
       </div>
     </div>

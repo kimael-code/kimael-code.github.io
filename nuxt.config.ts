@@ -77,10 +77,13 @@ export default defineNuxtConfig({
       '@fortawesome/free-solid-svg-icons',
     ],
   },
-  css: ['@/assets/sass/main.scss'],
+  css: [
+    '@/assets/sass/main.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
   router: {
     options: {
-      linkExactActiveClass: 'is-active',
+      linkExactActiveClass: 'is-selected',
     },
   },
   ssr: false,

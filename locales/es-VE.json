@@ -1,7 +1,9 @@
 {
   "contact": {
     "title": "Contacto",
-    "subtitle": "Puede contactarme en las siguientes redes sociales"
+    "subtitle": "Puede contactarme en las siguientes redes sociales",
+    "xAbout": "X (originalmente Twitter)",
+    "linkedinAbout": "Linkedin"
   },
 
   "footer": {
@@ -13,10 +15,37 @@
   },
 
   "index": {
-    "header": {
+    "hero": {
       "pretitle": "Gusto en saludarle, soy",
       "title": "Maikel Carballo",
       "subtitle": "Desarrollador Web Full Stack"
+    },
+    "section": {
+      "skills": {
+        "title": "Habilidades"
+      },
+      "xp": {
+        "title": "Experiencia",
+        "position1": {
+          "title": "Profesor",
+          "date": "Mayo 2013 - Enero 2018"
+        },
+        "position2": {
+          "title": "Analista Programador",
+          "date": "Febrero 2018 - Enero 2019"
+        },
+        "position3": {
+          "title": "Analista de Sistemas",
+          "date": "Febrero 2019 - Actual"
+        }
+      },
+      "schools": {
+        "title": "Educación",
+        "university": "Profesor, Especialidad: Informática",
+        "course1": "MOOC Agilidad y Lean (7ma. ed.)",
+        "course2": "PHP I, II, III",
+        "course3": "jQuery, PHP II"
+      }
     }
   },
 
@@ -30,21 +59,21 @@
   "portfolio": {
     "title": "Portafolio",
     "subtitle": "Proyectos personales, trabajos y colaboraciones",
-    "source": "Código Fuente"
+    "source": "Código Fuente",
+    "estatusContable": "Seguimiento de los ingresos y egresos de dinero.",
+    "miAdminUsuarios": "Aplicación web para sistemas tipo dashboard. Construida con Laravel 9 y basada en la plantilla HTML Bulma Admin Dashboard Template.",
+    "gedezmp": "Aplicación web que permite crear un archivo con extensión .zmp a partir de un archivo .csv. El archivo .zmp resultante puede ser usado para ejecutar operaciones por lotes, vía terminal, en servidores de correo Zimbra.",
+    "SCBmkAdmin": "Plantilla para aplicaciones web tipo dashboard. Construida con CodeIgniter 4 y la plantilla Bootstrap SB Admin 2."
   },
 
   "whoami": {
     "title": "Quién Soy",
-    "subtitle": "Maikel Carballo",
-    "about": "Profesional autodidacta graduado del Instituto Pedagógico de Caracas de la Universidad Pedagógica Experimental Libertador (UPEL-IPC). Ejercí la carrera docente universitaria alrededor de 4 años para luego dedicarme enteramente al desarrollo web. Actualmente trabajo como Analista de Sistemas y Desarrollador Web Full Stack en FOGADE.",
+    "subtitle": "Ser Humano",
+    "aboutLine1": "Profesional autodidacta graduado del Instituto Pedagógico de Caracas de la Universidad Pedagógica Experimental Libertador (UPEL-IPC).",
+    "aboutLine2": "Ejercí la carrera docente universitaria alrededor de 4 años para luego dedicarme enteramente al desarrollo web.",
+    "aboutLine3": "Actualmente trabajo como Analista de Sistemas y Desarrollador Web Full Stack en FOGADE.",
     "cardProfile": {
-      "title": "Perfil",
-      "profileName": "Título:",
-      "profileValue": "Profesor en Informática",
-      "jobName": "Cargo Actual:",
-      "jobValue": "Analista de Sistemas",
-      "interestsName": "Interesado en:",
-      "interestsValue": "VueJS, ReactJS, PWA, SPA, Full Stack Develop"
+      "title": "Desarrollador Web Full Stack"
     },
     "cardSkills": {
       "title": "Habilidades",

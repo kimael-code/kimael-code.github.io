@@ -15,9 +15,9 @@ useHead({
 <template>
   <div>
     <Html :lang="$i18n.locale"></Html>
-    <NuxtLayout>
-      <NuxtLoadingIndicator color="#0047e1" />
-      <NuxtPage />
-    </NuxtLayout>
+    <TheNavbar />
+    <NuxtLoadingIndicator />
+    <NuxtPage />
+    <TheFooter />
   </div>
 </template>

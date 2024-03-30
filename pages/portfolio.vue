@@ -39,7 +39,7 @@ const show = ref(false)
                     <span class="tag is-rounded is-danger">wip</span>
                     <span class="tag is-rounded is-primary">laravel</span>
                   </div>
-                  <p>Seguimiento de los ingresos y egresos de dinero.</p>
+                  <p>{{ $t('portfolio.estatusContable') }}</p>
                 </div>
               </template>
 
@@ -85,17 +85,14 @@ const show = ref(false)
                     <span class="tag is-rounded is-danger">wip</span>
                     <span class="tag is-rounded is-primary">codeigniter</span>
                   </div>
-                  <p>
-                    Plantilla para aplicaciones tipo dashboard. Construida con
-                    CodeIgniter y la plantilla Bootstrap SB Admin 2.
-                  </p>
+                  <p>{{ $t('portfolio.SCBmkAdmin') }}</p>
                 </div>
               </template>
 
               <template #footer>
                 <a
                   class="card-footer-item"
-                  href="https://gitlab.com/profemaik/status-contable"
+                  href="https://gitlab.com/profemaik/php-codeigniter-scbmk"
                   target="blank"
                   rel="noreferrer noopener"
                 >
@@ -137,11 +134,7 @@ const show = ref(false)
                     <span class="tag is-rounded is-danger">wip</span>
                     <span class="tag is-rounded is-primary">laravel</span>
                   </div>
-                  <p>
-                    Aplicación web para sistemas tipo dashboard. Construida con
-                    Laravel 9 y basada en la plantilla HTML Bulma Admin
-                    Dashboard Template.
-                  </p>
+                  <p>{{ $t('portfolio.miAdminUsuarios') }}</p>
                 </div>
               </template>
 
@@ -191,13 +184,7 @@ const show = ref(false)
                     <span class="tag is-rounded is-primary">react</span>
                     <span class="tag is-rounded is-primary">pwa</span>
                   </div>
-                  <p>
-                    Aplicación web que permite crear un archivo con extensión
-                    <code>.zmp</code> a partir de un archivo <code>.csv</code>.
-                    El archivo <code>.zmp</code> resultante puede ser usado para
-                    ejecutar operaciones por lotes, vía terminal, en servidores
-                    de correo Zimbra.
-                  </p>
+                  <p>{{ $t('portfolio.gedezmp') }}</p>
                 </div>
               </template>
 
