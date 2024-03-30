@@ -4,10 +4,17 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.9"
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "bulma": "^1.0.0",
+    "nuxt": "^3.11.1",
+    "sass": "^1.72.0",
+    "vue-i18n": "^9.10.2"
   }
 }

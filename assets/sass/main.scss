@@ -1,0 +1,30 @@
+@use 'bulma/sass' with (
+  $family-monospace: 'Share Tech Mono',
+);
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.is-handwritten {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 6em;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .3s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}

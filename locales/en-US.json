@@ -1,0 +1,88 @@
+{
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "xAbout": "X (formerly Twitter)",
+    "linkedinAbout": "Linkedin"
+  },
+
+  "footer": {
+    "app": {
+      "name": "Mi Portafolio",
+      "by": "by",
+      "licensed": "The source code is licensed"
+    }
+  },
+
+  "index": {
+    "hero": {
+      "pretitle": "Nice to greet you, I'm",
+      "title": "Maikel Carballo",
+      "subtitle": "Full Stack Web Developer"
+    },
+    "section": {
+      "skills": {
+        "title": "Skills"
+      },
+      "xp": {
+        "title": "Experience",
+        "position1": {
+          "title": "Professor",
+          "date": "May 2013 - Jan 2018"
+        },
+        "position2": {
+          "title": "Programmer Analyst",
+          "date": "Feb 2018 - Jan 2019"
+        },
+        "position3": {
+          "title": "Systems Analyst",
+          "date": "Feb 2019 - Current"
+        }
+      },
+      "schools": {
+        "title": "Education",
+        "university": "Professor, Specialty: Computer Sciencie",
+        "course1": "MOOC Agility and Lean (7th ed.)",
+        "course2": "PHP I, II, III",
+        "course3": "jQuery, PHP II"
+      }
+    }
+  },
+
+  "navbar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "about": "About Me"
+  },
+
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Personal projects, jobs and collaborations",
+    "source": "Source Code",
+    "estatusContable": "Monitoring of income and expenses.",
+    "miAdminUsuarios": "Web application for dashboard-type systems. Built with Laravel 9 and based on the Bulma Admin Dashboard HTML template.",
+    "gedezmp": "Web application that allows you to create a file with a .zmp extension from a .csv file. The resulting .zmp file can be used to execute batch operations, via terminal, on Zimbra mail servers.",
+    "SCBmkAdmin": "Template for dashboard-type web applications. Built with CodeIgniter 4 and the Bootstrap SB Admin 2 template."
+  },
+
+  "whoami": {
+    "title": "About Me",
+    "subtitle": "Human Being",
+    "aboutLine1": "Self-taught professional graduated from the Instituto Pedagógico de Caracas of the Universidad Pedagógica Experimental Libertador (UPEL-IPC, Venezuela) as a Computer Science Professor.",
+    "aboutLine2": "I practiced the teaching career about 4 years, later I dedicated myself entirely to programming and web development.",
+    "aboutLine3": "I currently work as Systems Analyst and Full Stack Web Developer at FOGADE.",
+    "cardProfile": {
+      "title": "Full Stack Web Developer"
+    },
+    "cardSkills": {
+      "title": "Skills",
+      "js": "JavaScript",
+      "vue": "Vue.js",
+      "html": "HTML5/CSS3",
+      "sql": "SQL Databases",
+      "docker": "Docker",
+      "php": "PHP"
+    }
+  }
+}
