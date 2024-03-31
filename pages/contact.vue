@@ -16,13 +16,13 @@ useHead({
       <div class="fixed-grid">
         <div class="grid">
           <a class="cell has-text-centered" href="https://twitter.com/_kimael_" target="blank" rel="noreferrer noopener">
-            <span class="icon is-large has-text-info">
+            <span class="icon is-large">
               <FontAwesomeIcon :icon="['fab', 'x-twitter']" size="7x" />
             </span>
             <p class="heading">{{ $t('contact.xAbout') }}</p>
           </a>
           <a class="cell has-text-centered" href="https://www.linkedin.com/in/maikel-c-2314311a1/" target="blank" rel="noreferrer noopener">
-            <span class="icon is-large has-text-info">
+            <span class="icon is-large">
               <FontAwesomeIcon :icon="['fab', 'linkedin']" size="7x" />
             </span>
             <p class="heading">{{ $t('contact.linkedinAbout') }}</p>
@@ -34,3 +34,15 @@ useHead({
     </div>
   </section>
 </template>
+
+<style scoped>
+span.icon {
+  color: var(--bulma-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  span.icon {
+    color: var(--bulma-info);
+  }
+}
+</style>

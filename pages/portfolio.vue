@@ -222,4 +222,9 @@ const show = ref(false)
 .portfolio-container .card {
   margin-bottom: 2em;
 }
+@media (prefers-color-scheme: dark) {
+  div p {
+    color: var(--bulma-info);
+  }
+}
 </style>

@@ -39,7 +39,7 @@ useHead({
                     <p class="subtitle is-6">@_kimael_</p>
                   </div>
                 </div>
-                <p class="title has-text-info">{{ $t('whoami.cardProfile.title') }}</p>
+                <p class="title">{{ $t('whoami.cardProfile.title') }}</p>
               </div>
               <footer class="card-footer">
                 <p class="card-footer-item">
@@ -80,3 +80,11 @@ useHead({
     </div>
   </section>
 </template>
+
+<style scoped>
+@media (prefers-color-scheme: dark) {
+  p.title {
+    color: var(--bulma-info);
+  }
+}
+</style>
